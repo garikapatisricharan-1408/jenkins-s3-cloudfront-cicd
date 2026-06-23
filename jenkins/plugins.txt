@@ -1,0 +1,19 @@
+# Required Jenkins Plugins for this Pipeline
+# Install via: Manage Jenkins → Plugins → Available Plugins
+
+git
+github
+github-branch-source
+workflow-aggregator
+pipeline-stage-view
+pipeline-github-lib
+docker-workflow
+docker-plugin
+amazon-ecr
+aws-credentials
+credentials-binding
+blueocean
+ansicolor
+build-timeout
+timestamper
+ws-cleanup

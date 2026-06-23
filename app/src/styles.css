@@ -1,0 +1,11 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0d1117; color: #e6edf3; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+.container { text-align: center; padding: 2rem; }
+h1 { font-size: 2rem; margin-bottom: 1rem; }
+.stack-badges { display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap; margin: 1.5rem 0; }
+.badge { padding: 0.4rem 1rem; border-radius: 2rem; font-size: 0.85rem; font-weight: 600; }
+.jenkins { background: #D24939; color: white; }
+.aws { background: #FF9900; color: black; }
+.cf { background: #1A73E8; color: white; }
+.tf { background: #7B42BC; color: white; }
+.build-info { color: #8b949e; margin-top: 1rem; }
